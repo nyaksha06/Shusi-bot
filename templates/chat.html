@@ -1,0 +1,15 @@
+
+{% extends 'home.html' %}
+
+{% block content %}
+
+<div class="chat-container">
+    <h2>Order Chatbot</h2>
+    <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"></div>
+    </div>
+    <input id="input" type="text" placeholder="Type your message..." autocomplete="off">
+    <button id="send">Send</button>
+</div>
+{% endblock %}
