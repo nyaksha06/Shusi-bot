@@ -1,0 +1,4 @@
+pytorch
+django
+nltk
+numpy 

@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Haven - Welcome</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+    <link rel="stylesheet" href="{% static 'css/chat.css' %}">
+   
+</head>
+
+<body>
+    <header>
+        <!-- <img src="static/images/logo2.jpeg" alt="Sushi Haven Logo" class="logo"> -->
+        <h1>Sushi Haven</h1>
+        <h2>Welcome to Sushi Haven – Where Tradition Meets Taste!</h2>
+        <!-- Button to navigate to chatbot page -->
+        <a href="{% url 'bot' %}" class="button">Chat with Us</a>
+    </header>
+
+   {% block content %}
+
+    <section id="our-story">
+        <h3>Our Story</h3>
+        <p>Sushi Haven is a culinary journey into the heart of Japanese cuisine. Established in 2000, we’ve been serving
+            authentic sushi and other Japanese delicacies, prepared with the freshest ingredients and a passion for
+            perfection. Our chefs bring years of experience, ensuring every bite is an experience to savor.</p>
+    </section>
+    
+    <section id="menu-highlights">
+        <h3>Menu Highlights</h3>
+        <ul>
+            <li><strong>Signature Sushi Rolls:</strong> From classic favorites like California rolls to our chef’s
+                special creations.</li>
+            <li><strong>Sashimi:</strong> Fresh, high-quality cuts of salmon, tuna, and more.</li>
+            <li><strong>Tempura:</strong> Light, crispy, and deliciously satisfying.</li>
+            <li><strong>Bento Boxes:</strong> Perfectly balanced meals, ideal for lunch or dinner.</li>
+            <li><strong>Desserts:</strong> Traditional Japanese sweets, including mochi and matcha ice cream.</li>
+        </ul>
+        <a href="#menu">Explore Full Menu</a>
+    </section>
+    
+    <section id="special-offers">
+        <h3>Special Offers</h3>
+        <p><strong>Happy Hour:</strong> Enjoy 20% off all sushi rolls every weekday from 3 PM to 6 PM.</p>
+        <p><strong>Loyalty Program:</strong> Join our Sushi Lovers Club and earn points for every dollar spent. Redeem
+            points for discounts and special perks!</p>
+        <a href="#join">Join Now</a>
+    </section>
+    
+    <section id="reservations">
+        <h3>Reservations</h3>
+        <p>Avoid the wait – book your table online! Whether you’re planning a romantic dinner or a group gathering,
+            we’ve got the perfect space for you.</p>
+        <a href="#reserve">Make a Reservation</a>
+    </section>
+    
+    <section id="location">
+        <h3>Our Location</h3>
+        <p>123 Sushi Street, Foodie Town, FL 12345</p>
+        <p><strong>Hours of Operation:</strong></p>
+        <ul>
+            <li><strong>Monday - Thursday:</strong> 11:00 AM - 10:00 PM</li>
+            <li><strong>Friday - Saturday:</strong> 11:00 AM - 11:00 PM</li>
+            <li><strong>Sunday:</strong> 12:00 PM - 9:00 PM</li>
+        </ul>
+        <a href="#directions">Get Directions</a>
+    </section>
+    
+    <section id="gallery">
+        <h3>Gallery</h3>
+        <div class="gallery-grid">
+            <img src="static/images/image1.jpeg" alt="Sushi Dish 1" class="gallery-image">
+            <img src="static/images/image2.jpeg" alt="Sushi Dish 2" class="gallery-image">
+            <img src="static/images/image3.jpeg" alt="Sushi Dish 3" class="gallery-image">
+            <img src="static/images/image4.jpeg" alt="Sushi Dish 4" class="gallery-image">
+        </div>
+        <a href="#gallery">View More</a>
+    </section>
+    
+    <section id="customer-reviews">
+        <h3>Customer Reviews</h3>
+        <p>"I had the best sushi of my life here!" - Sarah K.</p>
+        <p>"The atmosphere is amazing, and the staff is so friendly." - John D.</p>
+        <a href="#reviews">Read More Reviews</a>
+    </section>
+   {% endblock%}
+
+    <section id="contact-us">
+        <h3>Contact Us</h3>
+        <p>Have a question or want to place a special order? We’re here to help!</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> <a href="mailto:info@sushihaven.com">info@sushihaven.com</a></p>
+        <a href="#contact-form">Contact Form</a>
+    </section>
+
+    <footer>
+        <h3>Follow Us</h3>
+        <p>Stay updated with our latest news, events, and special offers!</p>
+        <p>
+            <a href="#facebook">Facebook</a> |
+            <a href="#instagram">Instagram</a> |
+            <a href="#twitter">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="{% static 'js/chat.js' %}"></script>
+    
+</body>
+
+</html>

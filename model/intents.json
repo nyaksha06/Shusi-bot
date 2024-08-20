@@ -1,0 +1,136 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day",
+                "Is anyone there?",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello! Welcome to Sushi Delight!",
+                "Hi there! How can I assist you today?",
+                "Hey! Ready to order some delicious sushi?",
+                "Hello! What can I get for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Bye",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Goodbye! Hope to see you again soon.",
+                "Take care! Come back for more sushi!",
+                "Bye! Have a sushi-tastic day!",
+                "See you later! Enjoy your meal!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "That's helpful",
+                "Thank you very much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Glad to assist!",
+                "Anytime! Enjoy your sushi!"
+            ]
+        },
+        {
+            "tag": "show_menu",
+            "patterns": [
+                "What’s on the menu?",
+                "Show me the menu",
+                "What do you have?",
+                "What can I order?",
+                "I'd like to see the menu"
+            ],
+            "responses": [
+                "Here's our menu: \n 1. Spicy Tuna Roll \n  2. California Roll \n3. Salmon Nigiri \n4. Eel Avocado Roll \n5. Shrimp Tempura Roll \n6. Miso Soup \n7. Edamame  \n8. Green Tea Ice Cream \n9. Sushi Combo Platter"
+            ]
+        },
+        {
+            "tag": "order",
+            "patterns": [
+                "I want to order",
+                "Can I place an order?",
+                "I'd like to order",
+                "I'd like to get",
+                "I want to get"
+            ],
+            "responses": [
+                "Great! What would you like to order?",
+                "Sure! Please tell me what you'd like from our menu.",
+                "Of course! Let me know what you’d like.",
+                "Sounds good! What can I get you?"
+            ]
+        },
+        {
+            "tag": "confirm_order",
+            "patterns": [
+                "That's all",
+                "I'm done",
+                "That's it",
+                "That's my order",
+                "I'm finished ordering"
+            ],
+            "responses": [
+                "Got it! Your order is confirmed. Would you like anything else?",
+                "Thank you for your order! Do you need anything else?",
+                "Your order is confirmed! We’ll get started on that. Anything else?"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "How do I pay?",
+                "What payment methods do you accept?",
+                "Can I pay with a card?",
+                "Do you accept credit cards?",
+                "Can I use Paypal?"
+            ],
+            "responses": [
+                "You can pay with cash, credit/debit card, or PayPal.",
+                "We accept all major credit cards, cash, and PayPal."
+            ]
+        },
+        {
+            "tag": "delivery_time",
+            "patterns": [
+                "How long is delivery?",
+                "When will my order arrive?",
+                "How long does delivery take?"
+            ],
+            "responses": [
+                "Delivery usually takes 30-45 minutes.",
+                "Your sushi should arrive in about 30-45 minutes."
+            ]
+        },
+        {
+            "tag": "menu_recommendation",
+            "patterns": [
+                "What do you recommend?",
+                "What’s popular?",
+                "What’s your specialty?",
+                "Any recommendations?"
+            ],
+            "responses": [
+                "Our Spicy Tuna Roll and Salmon Nigiri are customer favorites!",
+                "You can't go wrong with our California Roll or Shrimp Tempura Roll.",
+                "If you like something unique, try our Eel Avocado Roll!"
+            ]
+        }
+    ]
+}
