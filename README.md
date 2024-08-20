@@ -13,3 +13,28 @@ __Key features include__:
 **Seamless Website Integration** : Integrated with a Django-based restaurant website, the bot offers a cohesive and user-friendly experience, helping customers navigate the menu and place orders effortlessly.
 
 **Interactive UI** : The website's HTML and CSS design provides a modern and engaging interface, making the interaction with the bot enjoyable and efficient.
+
+
+
+## Installation
+
+1. Clone the repository :
+   ```bash
+   git clone https://github.com/nyaksha06/Shusi-bot.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd projectname
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+ ## Usage 
+    To start the project, run:
+```bash
+python manage.py runserver
+```
+ 
