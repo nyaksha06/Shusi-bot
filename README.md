@@ -31,9 +31,14 @@ __Key features include__:
    pip install -r requirements.txt
    ```
 
+![Alt text](static/images/sitess1.png)
+![Alt text](static/images/sitess1.png)
+
+![Alt text](image-url)
 
  ## Usage 
-    To start the project, run:
+To start the project, run:
+
 ```bash
 python manage.py runserver
 ```
