@@ -32,9 +32,11 @@ __Key features include__:
    ```
 
 ![Alt text](static/images/sitess1.png)
-![Alt text](static/images/sitess1.png)
 
-![Alt text](image-url)
+
+![Alt text](static/images/sitess2.png)
+
+
 
  ## Usage 
 To start the project, run:
