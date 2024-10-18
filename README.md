@@ -15,6 +15,18 @@ __Key features include__:
 **Interactive UI** : The website's HTML and CSS design provides a modern and engaging interface, making the interaction with the bot enjoyable and efficient.
 
 
+Here's how the final section would look integrated into your README file:
+
+
+## Customization
+
+One can customize the intents and responses of the bot by modifying the `intents.json` file according to their specific requirements. After updating the file, retrain the model to adapt the bot's behavior to the changes:
+
+1. Modify the `intents.json` file with new intents and responses in model directory.
+2. Train model using orderbot.ipynb.
+3. Replace data.pth with new trained model.
+
+
 
 ## Installation
 
